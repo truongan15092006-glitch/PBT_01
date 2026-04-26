@@ -96,8 +96,17 @@ Giải thích sự khác nhau giữa <thead>, <tbody>, <tfoot>:
 + Table khó responsive trên điện thoại và thiết bị nhỏ, vì cấu trúc hàng/cột cứng nhắc không linh hoạt như CSS Flexbox hoặc Grid.
 + Code layout bằng table thường dài, rối, khó bảo trì và chỉnh sửa hơn so với semantic HTML + CSS hiện đại.
 
+
+**Bài B1 (15đ) — Trang Profile cá nhân
+Ảnh Screenshot kết quả trên Chrome
+![alt text](image-2.png)
+
+**Bài B2 (15đ) — Trang Sản phẩm E-Commerce
+Ảnh Screenshot kết quả trên Chrome
+![alt text](image-3.png)
+![alt text](image-4.png)
 **B3 Bài B3 (15đ) — Debug HTML
-# Bài B3 — Debug HTML
+
 
 Nguồn tham chiếu: 01_introduction_html_universe.md → HTML5 Structure Basics, 04_semantic_html.md → Semantic Tags, 05_tables_hyperlinks.md → Table Structure
 
