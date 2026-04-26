@@ -95,3 +95,24 @@ Giải thích sự khác nhau giữa <thead>, <tbody>, <tfoot>:
 + Table làm giảm accessibility vì screen reader sẽ hiểu nhầm nội dung là dữ liệu dạng bảng thay vì giao diện bố cục.
 + Table khó responsive trên điện thoại và thiết bị nhỏ, vì cấu trúc hàng/cột cứng nhắc không linh hoạt như CSS Flexbox hoặc Grid.
 + Code layout bằng table thường dài, rối, khó bảo trì và chỉnh sửa hơn so với semantic HTML + CSS hiện đại.
+
+**B3 Bài B3 (15đ) — Debug HTML
+# Bài B3 — Debug HTML
+
+Nguồn tham chiếu: 01_introduction_html_universe.md → HTML5 Structure Basics, 04_semantic_html.md → Semantic Tags, 05_tables_hyperlinks.md → Table Structure
+
+Tìm lỗi file HTML:
+Lỗi 1: Dòng 1 — `<!DOCTYPE>` sai chuẩn — Sửa thành `<!DOCTYPE html>`
+Lỗi 2: Dòng 2 — Thiếu `lang="vi"` trong thẻ `<html>` — Thêm `lang="vi"`
+Lỗi 3: Dòng 4 — Thẻ `<title>` không đóng — Thêm `</title>`
+Lỗi 4: Dòng 5 — `utf8` sai chuẩn — Sửa thành `UTF-8`
+Lỗi 5: Thiếu meta viewport — Thêm `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+Lỗi 6: `<h1>` không đóng đúng — Sửa `</h1>`
+Lỗi 7: Thẻ `<a>` đầu tiên không đóng — Thêm `</a>`
+Lỗi 8: Link `href="home"` không rõ ràng — Sửa `home.html`
+Lỗi 9: `<img>` thiếu `alt` — Thêm mô tả ảnh
+Lỗi 10: `<b>` và `<p>` lồng sai thứ tự — Dùng `<strong>` đúng semantic
+Lỗi 11: Bảng thiếu `<thead>` và `<tbody>` — Bổ sung cấu trúc chuẩn
+Lỗi 12: Dùng `<td>` cho header — Sửa thành `<th>`
+Lỗi 13: Có 2 thẻ `<main>` — Đổi phần sidebar thành `<aside>`
+Lỗi 14: Footer thiếu đóng `</p>` — Bổ sung đầy đủ
